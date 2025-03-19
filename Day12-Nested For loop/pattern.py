@@ -276,8 +276,8 @@ OUTPUT:
 
 row=5
 count=1
-for i in range(1,row+1):
-    for j in range(1,row+2):
+for i in range(1,row+2):
+    for j in range(1,row+1):
         if i%2==0:
             if j%2==0:
                 print(count, end=" ")
